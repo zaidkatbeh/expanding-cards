@@ -9,7 +9,8 @@ images.forEach(function(ele){
 function sayhello(ele){
     removeactive();
     ele.style.width="58%";
-    ele.children[0].style.visibility="visible";
+    setTimeout(function(){ele.children[0].style.visibility="visible";},900)
+    
 }
 function removeactive(){
     for(let i=0;i<images.length;i++)

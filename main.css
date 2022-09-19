@@ -32,9 +32,10 @@ padding-right: 2%;
 position: absolute;
 bottom: -80%;
 color: white;
-font-size: 25px;
+font-size: 29px;
 visibility: hidden;
 transition-duration: 0s;
+font-weight: bold;
 }
 .container div:nth-child(1) span{
 
