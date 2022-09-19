@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+
+}
+.container{
+display: flex;
+width: 100%;
+margin-top: 100px;
+padding-right: 2%;
+}
+.container *{
+    width: 8%;
+    height: 600px;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    margin-left: 2%;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.container div{
+    position: relative;
+}
+.container * span{
+position: absolute;
+bottom: -80%;
+color: white;
+font-size: 25px;
+visibility: hidden;
+transition-duration: 0s;
+}
+.container div:nth-child(1) span{
+
+visibility: visible;
+}
+.container div:nth-child(1) {
+    background-image: url("./images/image1.webp");
+    width: 58%;
+}
+.container div:nth-child(2){
+    background-image: url("./images/image2.webp");
+}
+.container div:nth-child(3){
+    background-image: url("./images/image3.webp");
+}
+.container div:nth-child(4){
+    background-image: url("./images/image4.webp");
+}
+.container div:nth-child(5){
+    background-image: url("./images/image5.webp");
+}
